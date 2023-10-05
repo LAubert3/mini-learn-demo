@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="math.css">
+    <title>Math</title>
+</head>
+
+<body class="container">
+    <span id="navbar">
+        <button id="menu" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">+</button>
+        <div id="menulist" class="dropdown-menu" aria-labelledby="menu">
+            <a class="dropdown-item" href="index.html">Home</a>
+            <a class="dropdown-item" href="math.html">Math</a>
+            <a class="dropdown-item" href="reachOut.html">Reach Out</a>
+            <a class="dropdown-item" href="credits.html">Credits</a>
+        </div>
+    </span>
+
+    <div class="form-section">
+        <button class="e-button">Equation</button>
+        <div class="e-content">
+            <div id="padded">
+                <button class="btn">NEW</button>
+                <span id="spaced">
+                    <span class="term-one"></span>
+                    <span class="operator"></span>
+                    <span class="term-two"></span>
+                    <span class="equal">=</span>
+                    <input class="term-input" type="text">
+                    <span class="term-three"></span>
+                </span>
+            </div>
+        </div>
+
+        <button class="a-button">Algebra</button>
+        <div class="a-content">
+            <div id="a-padded">
+                <button class="abtn">NEW</button>
+                <span id="a-spaced">
+                    <span class="t-one"></span>
+                    <span class="op"></span>
+                    <span class="vari"></span>
+                    <input class="t-input" type="text">
+                    <span class="equal" id="equi">=</span>
+                    <span class="t-three"></span>
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="math.js"></script>
+
+    <audio preload="auto" src="./sounds/ding.mp3"></audio>
+    <audio preload="auto" src="./sounds/no.mp3"></audio>
+    <link rel="icon" href="path/to/favicon.png" type="image/png">
+</body>
+
+</html>
